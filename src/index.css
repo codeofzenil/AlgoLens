@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background-color: #F7F8FA;
+  color: #1F2328;
+}
+
+::selection {
+  background: #2563EB;
+  color: #FFFFFF;
+}
+
+.focus-ring:focus-visible {
+  outline: 2px solid #2563EB;
+  outline-offset: 2px;
+}
+
+/* keep a little rounding on form controls without touching every className */
+input, select, textarea, button {
+  border-radius: 4px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  * { animation-duration: 0.01ms !important; transition-duration: 0.01ms !important; }
+}
