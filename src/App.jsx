@@ -1,7 +1,5 @@
 import { Routes, Route } from 'react-router-dom'
 import Navbar from './components/Navbar.jsx'
-import Home from './pages/Home.jsx'
-import Library from './pages/Library.jsx'
 import Playground from './pages/Playground.jsx'
 
 export default function App() {
@@ -10,10 +8,8 @@ export default function App() {
       <Navbar />
       <main className="flex-1">
         <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/algorithms" element={<Library />} />
-          <Route path="/playground" element={<Playground />} />
-          <Route path="*" element={<Home />} />
+          <Route path="/" element={<Playground />} />
+          <Route path="*" element={<Playground />} />
         </Routes>
       </main>
       <footer className="border-t border-ink-700 py-6">

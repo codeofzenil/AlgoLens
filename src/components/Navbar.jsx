@@ -12,23 +12,6 @@ export default function Navbar() {
         <Link to="/" className="font-display font-bold text-lg text-paper">
           AlgoLens
         </Link>
-        <nav className="flex items-center gap-1">
-          <NavLink to="/" end className={linkClass}>
-            Home
-          </NavLink>
-          <NavLink to="/algorithms" className={linkClass}>
-            Algorithms
-          </NavLink>
-          <NavLink to="/playground" className={linkClass}>
-            Playground
-          </NavLink>
-          <Link
-            to="/playground"
-            className="ml-3 px-4 py-1.5 bg-phosphor-500 text-white text-sm font-medium hover:bg-phosphor-600 transition-colors focus-ring"
-          >
-            Start visualizing
-          </Link>
-        </nav>
       </div>
     </header>
   )
