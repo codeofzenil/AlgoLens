@@ -14,7 +14,7 @@ export default function App() {
       </main>
       <footer className="border-t border-ink-700 py-6">
         <div className="max-w-6xl mx-auto px-5 text-xs font-mono text-muted flex items-center justify-between">
-          <span>AlgoLens — Web Technologies minor project</span>
+          <span>AlgoLens</span>
           <span>V1.0</span>
         </div>
       </footer>
